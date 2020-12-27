@@ -8,20 +8,26 @@ Important Terms
 3. What is Mockito Framwork?
 4. Why Mackito Framwork ?
 
->What is Unit Testing ?
+>What is Unit Testing ?</br>
 >> When a developer develop an application then it should be tested at the developer end . Developer should be responsible to test the function or module ,
  his function or module should give the expected output on the basis of input.</br>
 >> Unit Testing means , the small small units of application need to be tested.
 >> To achieve the above developer need to write unit test cases.</br>
 
-> What is Mocking ?
+> What is Mocking ?</br>
 >> Mocking is a process by which we can convert real object into mock OR clone object.</br>
 >> Developer use Mock object instead of real object to perform Unit Testing .</br>
 >> Mock Object works with a Dummy input and also produced Dummy output.</br>
 
-> What is Need of Mocking :- 
+> What is Need of Mocking :- </br>
 >> If we want to test a component that depends on the other component, but the other component is under development. In generally , when we are working in a team and parts are divided between several team-mates. In this case, mocking plays an essential role in the testing of that component. Without mocking, we need to wait for the completion of the required elements for testing.</br>
 >> If the real components perform slow operations while dealing with database connections or another complex read/ write operation. Sometimes the database queries can take 10, 20, or more seconds to execute. In such cases, we require mock objects to perform testing, and it can be done via mocking.</br>
 
-> What is Mockito Framwork?
+> What is Mockito Framwork? </br>
+>> Mockito is a java based testing framwork , Wtih the help of Mockito we can write test cased.</br>
+>> Mockito is released as a testing framwork under the MIT license.</br>
+>> Mockito generate a mock object of an specific Interface using Java Reflexion API.</br>
+>> For actual implementation Mock object used Dummy or Proxy object.</br>
+
+> Benifit of Mockito ?</br>
 >>
